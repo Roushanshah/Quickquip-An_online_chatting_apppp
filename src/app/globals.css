@@ -24,12 +24,6 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-<<<<<<< HEAD
-  /* background: linear-gradient(to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb)); */
-=======
->>>>>>> 5a59ca6b3a8ce802d28b10996eb9a1d5e1d46dba
 }
 
 @layer utilities {
