@@ -1,0 +1,67 @@
+<svg id="visual" viewBox="0 0 1920 995" width="1920" height="995" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+    <!-- Background -->
+    <rect x="0" y="0" width="1920" height="995" fill="url(#gradBg)"></rect>
+
+    <!-- Gradient Definitions -->
+    <defs>
+        <linearGradient id="gradBg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#0d2a3b;stop-opacity:1"></stop>
+            <stop offset="100%" style="stop-color:#0f1d33;stop-opacity:1"></stop>
+        </linearGradient>
+
+        <linearGradient id="grad1_0" x1="48.2%" y1="0%" x2="100%" y2="100%">
+            <stop offset="11%" style="stop-color:#023047;stop-opacity:1"></stop>
+            <stop offset="100%" style="stop-color:#005073;stop-opacity:1"></stop>
+        </linearGradient>
+
+        <linearGradient id="grad2_0" x1="0%" y1="0%" x2="51.8%" y2="100%">
+            <stop offset="11%" style="stop-color:#0d47a1;stop-opacity:1"></stop>
+            <stop offset="100%" style="stop-color:#42a5f5;stop-opacity:1"></stop>
+        </linearGradient>
+
+        <!-- Radial Gradient for Central Glow -->
+        <radialGradient id="glow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+            <stop offset="0%" style="stop-color:#e0f7fa;stop-opacity:0.3"></stop>
+            <stop offset="100%" style="stop-color:#00acc1;stop-opacity:0"></stop>
+        </radialGradient>
+    </defs>
+
+    <!-- Radial Glow Background -->
+    <circle cx="960" cy="497.5" r="450" fill="url(#glow)"></circle>
+
+    <!-- Decorative Shapes -->
+    <g transform="translate(1920, 0)">
+        <path
+            d="M0 746.3C-135.4 729.6 -270.9 712.9 -373.1 646.3C-475.4 579.6 -544.4 463 -601 347C-657.7 231 -702 115.5 -746.2 0L0 0Z"
+            fill="url(#grad1_0)"></path>
+    </g>
+
+    <g transform="translate(0, 995)">
+        <path
+            d="M0 -746.2C114.7 -700.6 229.4 -654.9 345.5 -598.4C461.6 -541.9 579.2 -474.7 646.3 -373.1C713.3 -271.6 729.8 -135.8 746.3 0L0 0Z"
+            fill="url(#grad2_0)"></path>
+    </g>
+
+    <!-- Additional Curves and Waves -->
+    <path
+        d="M0,800 C250,650 500,850 750,750 C1000,650 1250,950 1500,800 C1750,650 1920,900 1920,900 L1920,995 L0,995 Z"
+        fill="rgba(0, 128, 255, 0.2)"></path>
+
+    <path
+        d="M0,600 C250,500 500,700 750,600 C1000,500 1250,800 1500,600 C1750,400 1920,700 1920,700 L1920,995 L0,995 Z"
+        fill="rgba(0, 128, 255, 0.1)"></path>
+
+    <!-- Abstract Ellipses -->
+    <ellipse cx="300" cy="300" rx="200" ry="500" fill="rgba(255, 255, 255, 0.05)"></ellipse>
+
+    <ellipse cx="1600" cy="700" rx="250" ry="150" fill="rgba(255, 255, 255, 0.08)"></ellipse>
+
+    <!-- Animated Lines for Visual Interest -->
+    <g stroke="#82b1ff" stroke-width="2" opacity="0.3">
+        <line x1="100" y1="100" x2="500" y2="500" />
+        <line x1="200" y1="150" x2="600" y2="550" />
+        <line x1="300" y1="200" x2="700" y2="600" />
+    </g>
+</svg>
+  
