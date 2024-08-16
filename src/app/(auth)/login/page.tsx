@@ -26,7 +26,7 @@ const Page: FC = () => {
     }
     return (
         <>
-          <div className="flex min-h-screen items-center justify-center  bg-cover bg-center py-12 px-6 sm:px-8 lg:px-10"
+          <div className="flex min-h-screen items-center justify-center bg-gray-50 py-12 px-6 sm:px-8 lg:px-10"
           style={{
             backgroundImage: `url('/auth_bg.svg')`
           }}
